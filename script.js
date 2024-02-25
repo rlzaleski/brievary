@@ -8,7 +8,7 @@ function getContent() {
       console.log(http_request.response);
     }
   };
-  http_request.open("GET", "http://www.ibreviary.com/m2/breviario.php?s=vespri");
+  http_request.open("GET", "https://www.ibreviary.com/m2/breviario.php?s=vespri");
   http_request.withCredentials = false;
   http_request.setRequestHeader("Content-Type", "text/html");
   http_request.send();
